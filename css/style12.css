@@ -1,0 +1,984 @@
+body {
+  background-image: url(../images/football_background__1_by_destroyer53_d69rp0f-fullview.jpg);
+  background-attachment: fixed; 
+  background-size: cover ;
+  
+}
+
+
+.parent{
+height: 620px ;
+margin-top: 50px;
+}
+.one{
+  background-image: linear-gradient(rgb(44,51,51), rgb(245,242,230));
+  width: 550px;
+  height: 300px;
+  position: relative;
+  top: 160px;
+  left: 560px;
+
+}
+.two{
+  background-image: linear-gradient(#395b64, #2666cf);
+  width: 550px;
+  height: 300px;
+  position: relative;
+  bottom: 200px;
+  left: 400px;
+  z-index: 1;
+font-size: 30px;
+  text-align: center;
+  color: white;
+
+}
+
+
+.three{
+  background-image: linear-gradient(rgb(245,242,230), rgb(44,51,51));
+  width: 550px;
+  height: 280px;
+position: relative;
+  bottom: 480px;
+  left: 260px;
+
+
+
+}
+.four{
+width: 250px;
+  height: 330px;
+  position: relative;
+  bottom: 730px;
+  left: 280px;
+  z-index: 2;
+
+}
+
+
+.five
+{
+  width: 35px;
+  height: 40px;
+  background-image: linear-gradient(#2666cf, #395b64);
+  position: relative;
+  bottom: 780px;
+  left: 480px;
+  z-index: 3;
+}
+.we{
+ font-size: 50px;
+}
+.two p{
+ font-size: 24px;
+ position: relative;
+ bottom: 20px;
+ left: 40px;
+
+ 
+}
+.we{
+ color: black;
+}
+a{
+
+font-size: 34px;
+position: relative;
+ bottom: 26px;
+ color: black;
+ border:1px black;
+
+}
+h1{
+text-align: center;
+margin-right: 1000px;
+font-size: 32px;
+color: white;
+margin-top: 50px;
+}
+
+
+video{
+ 
+  position: relative;
+  left: 11%;
+  top: 20px;
+ 
+
+}
+.about{
+  color: white;
+  font-weight: bold;
+  font-size:22px;
+ margin-bottom: -200px;
+  margin-left: 900px;
+
+ 
+   }
+   .img1 img{
+     width: 800px;
+     height: 550px;
+margin-top: -2000px;
+
+
+   
+   }
+.img2{
+
+   width: 80%;
+   margin-left: 150px;
+   margin-top: 300px;
+
+}
+.history {
+color: white;
+  font-weight: bold;
+ text-align: center;
+ font-size:24px;
+ margin-top: 70px;
+
+}
+.history h1{
+margin-left: 45%;
+}
+
+.history a{
+
+font-size: 32px;
+position: relative;
+  bottom: 5px;
+  color: wheat;
+  
+}
+.Box1{
+   
+    position: relative;
+    bottom: 10px;
+    color: black;
+    float: left;
+    width: 33.33%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    max-width: 20%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.Box2{
+  position: relative;
+  bottom: 10px;
+  color: black;
+  float: left;
+  width: 33.33%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  max-width: 20%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-right: 10%;
+}
+.Box3{
+  position: relative;
+  bottom: 10px;
+  color: black;
+  float: left;
+  width: 33.33%;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+  max-width: 20%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-right: 10%;
+}
+
+
+.image{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.goals{
+color: white;
+font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+position: relative;
+
+left: 500px; 
+margin-bottom: 100px;
+
+}
+.score{
+  margin-top: 300px;
+}
+.overlay{
+  
+  background: rgba(0, 0, 0, 0.5); 
+  width: 94.5%;
+   color: white;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+.prizes{
+ 
+  color: white;
+  font-weight: bold;
+  font-size:20px;
+margin-left: 800px;
+margin-top: 1100px;
+
+
+ 
+   }
+
+   .imgp img{
+     width: 650px;
+     height: 350px;
+    position: relative;
+    bottom: 280px;
+  left: 20px;
+
+
+   }
+
+  
+footer{
+  
+  color: white;
+  background-color: rgb(16, 16, 52);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 0px 5px 0px 5px;
+ 
+    width: 100%;
+    margin-top: 250px;
+    margin-bottom: -20px;
+    margin-left: -5px;
+    margin-right: 20px;
+}
+
+
+
+ul{
+margin: 0%;
+padding: 0%;
+
+}
+header{
+color: rgb(16, 16, 52);
+background-color:  black;
+padding-top: 30px;
+min-height: 70px;
+border-bottom: rgb(0, 86, 172) 5px solid;
+margin: -10px;
+width: 101%;
+
+
+}
+header a{
+color: white;
+text-decoration: none;
+font-size: 19px;
+}
+header li{
+float: left;
+display: inline;
+padding: 50px 20px 0px 20px;
+
+}
+header #brand {
+float: left;
+
+
+}
+header .logo{
+margin-bottom: -33px;
+margin-left: 27px;
+float: left;
+
+}
+
+header #brand h2{
+margin-left: 100px;
+color: white ;
+margin-top: 3px;
+font-size: 30px;
+
+
+}
+header nav{
+float: right;
+margin-top: -12px;
+margin-left: 530px;
+
+}
+header .main-page a{
+font-weight: bold;
+color: white;
+}
+
+header a:hover{
+color: rgb(244, 248, 0);
+font-weight: bolder;
+}
+
+@media screen and (max-width:1920px)
+{
+video{
+ 
+  position: relative;
+  left: 18%;
+  top: 20px;
+ 
+
+}
+footer
+{
+    width: 100%;
+    margin-top: 250px;
+    margin-bottom: -20px;
+    margin-left: -5px;
+    margin-right: 20px;
+}
+header{
+
+padding-top: 30px;
+min-height: 70px;
+border-bottom: rgb(0, 86, 172) 5px solid;
+width: 101%;
+margin-right: 0;
+padding-right: 0;
+
+}
+header a{
+color: white;
+text-decoration: none;
+font-size: 26px;
+}
+header #brand h2{
+margin-left: 150px;
+color: white ;
+margin-top: 3px;
+font-size: 36px;
+
+
+}
+p{
+width: 100%;
+}
+header nav{
+float: left;
+margin-top: -90px;
+margin-left: 1000px;  
+}
+.about{
+font-size:24px ;
+margin-left: 830px;
+width: 50%;
+
+}
+.img1 img{
+width: 680px;
+height: 580px;
+margin-top: -2000px;
+margin-left: 100px;
+}
+.img2{
+
+width: 60%;
+margin-left: 330px;
+margin-top: 300px;
+
+}
+.history {
+color: white;
+  font-weight: bold;
+ text-align: center;
+ font-size:24px;
+ margin-top: 70px;
+ width: 80%;
+ margin-left: 200px;
+
+
+}
+.prizes{
+ 
+color: white;
+font-weight: bold;
+font-size:26px;
+margin-left: 800px;
+margin-top: 1100px;
+
+
+
+ }
+ .imgp img{
+  width: 600px;
+  height: 450px;
+ position: relative;
+ bottom: 280px;
+left: 120px;
+
+}
+.parent{
+height: 620px ;
+margin-top: 50px;
+margin-left: 200px;
+}
+
+}
+
+
+@media screen and (max-width:1440px)
+{
+video
+{
+  width: 70%;
+  left: 12%;
+  top: 20px;
+}
+
+footer
+{
+    width: 100%;
+    margin-top: 250px;
+    margin-bottom: -20px;
+    margin-left: -5px;
+    margin-right: 20px;
+}
+header{
+
+padding-top: 30px;
+min-height: 70px;
+border-bottom: rgb(0, 86, 172) 5px solid;
+width: 101%;
+margin-right: 0;
+padding-right: 0;
+
+}
+
+p{
+width: 100%;
+}
+header nav{
+float: left;
+margin-top: -70px;
+margin-left: 650px;
+
+}
+.about{
+font-size:17px ;
+margin-left: 800px;
+width: 40%;
+
+}
+.img1 img{
+width: 650px;
+height: 550px;
+margin-top: -2000px;
+margin-left: 100px;
+}
+.img2{
+
+width: 60%;
+margin-left: 280px;
+margin-top: 300px;
+
+}
+.history {
+color: white;
+  font-weight: bold;
+ text-align: center;
+ font-size:17px;
+ margin-top: 70px;
+ width: 80%;
+ margin-left: 150px;
+
+
+}
+.prizes{
+ 
+color: white;
+font-weight: bold;
+font-size:20px;
+margin-left: 700px;
+margin-top: 1100px;
+
+
+
+ }
+ .imgp img{
+  width: 550px;
+  height: 350px;
+ position: relative;
+ bottom: 280px;
+left: 100px;
+
+}
+}
+@media screen and (max-width:1366px)
+{
+video
+{
+  width: 70%;
+  left: 12%;
+  top: 20px;
+}
+
+footer
+{
+    width: 100%;
+    margin-top: 250px;
+    margin-bottom: -20px;
+    margin-left: -5px;
+    margin-right: 20px;
+}
+header{
+
+padding-top: 30px;
+min-height: 70px;
+border-bottom: rgb(0, 86, 172) 5px solid;
+width: 101%;
+margin-right: 0;
+padding-right: 0;
+
+}
+
+p{
+width: 100%;
+}
+header nav{
+float: left;
+margin-top: -70px;
+margin-left: 620px;
+
+}
+.about{
+font-size:17px ;
+margin-left: 800px;
+width: 40%;
+
+}
+.img1 img{
+width: 650px;
+height: 550px;
+margin-top: -2000px;
+margin-left: 100px;
+}
+.img2{
+
+width: 60%;
+margin-left: 280px;
+margin-top: 300px;
+
+}
+.history {
+color: white;
+  font-weight: bold;
+ text-align: center;
+ font-size:17px;
+ margin-top: 70px;
+ width: 80%;
+ margin-left: 150px;
+
+
+
+}
+.prizes{
+ 
+color: white;
+font-weight: bold;
+font-size:20px;
+margin-left: 750px;
+margin-top: 1100px;
+width: 40%;
+
+
+
+ }
+ .imgp img{
+  width: 550px;
+  height: 350px;
+ position: relative;
+ bottom: 280px;
+left: 100px;
+
+}
+
+}
+
+@media screen and (max-width:1024px)
+{
+.one{
+  background-image: linear-gradient(rgb(44,51,51), rgb(245,242,230));
+  width: 550px;
+  height: 300px;
+  position: relative;
+  top: 160px;
+  left: 260px;
+
+}
+.two{
+  background-image: linear-gradient(#395b64, #2666cf);
+  width: 550px;
+  height: 300px;
+  position: relative;
+  bottom: 200px;
+  left: 200px;
+  z-index: 1;
+font-size: 30px;
+  text-align: center;
+  color: white;
+
+}
+
+
+.three{
+  background-image: linear-gradient(rgb(245,242,230), rgb(44,51,51));
+  width: 550px;
+  height: 280px;
+position: relative;
+  bottom: 480px;
+  left: 60px;
+
+
+
+}
+.four{
+width: 250px;
+  height: 330px;
+  position: relative;
+  bottom: 730px;
+  left: 80px;
+  z-index: 2;
+
+}
+.five
+{
+  width: 35px;
+  height: 40px;
+  background-image: linear-gradient(#2666cf, #395b64);
+  position: relative;
+  bottom: 780px;
+  left: 280px;
+  z-index: 3;
+}
+video
+{
+  width: 70%;
+  left: 12%;
+  top: 20px;
+}
+
+h1{
+  text-align: center;
+  margin-right: 700px;
+  font-size: 32px;
+  color: white;
+  margin-top: 50px;
+}
+footer
+{
+    width: 102%;
+    margin-top: 250px;
+    margin-bottom: -20px;
+    margin-left: -5px;
+    margin-right: 20px;
+}
+header{
+
+padding-top: 30px;
+min-height: 70px;
+border-bottom: rgb(0, 86, 172) 5px solid;
+width: 102%;
+margin-right: 0;
+padding-right: 0;
+
+}
+
+
+p{
+width: 100%;
+}
+header nav{
+float: left;
+margin-top: -55px;
+margin-left: 420px;
+
+}
+.about{
+font-size:15px ;
+margin-left: 600px;
+width: 40%;
+
+}
+.img1 img{
+width: 500px;
+height: 550px;
+margin-top: -2000px;
+margin-left: 0px;
+}
+.img2{
+
+width: 55%;
+margin-left: 210px;
+margin-top: 300px;
+
+}
+.history {
+color: white;
+  font-weight: bold;
+ text-align: center;
+ font-size:17px;
+ margin-top: 70px;
+ width: 80%;
+ margin-left: 100px;
+ margin-right: 0;
+
+
+}
+.prizes{
+ 
+color: white;
+font-weight: bold;
+font-size:20px;
+margin-left: 600px;
+margin-top: 1100px;
+width: 40%;
+
+
+
+ }
+ .goals{
+   margin-right: 900px;
+ }
+ .imgp img{
+  width: 550px;
+  height: 350px;
+ position: relative;
+ bottom: 280px;
+left: 0;
+
+}
+#brand {
+
+width: 40%;
+
+}
+header .logo{
+margin-bottom: -33px;
+margin-left: 0;
+
+
+}
+
+#brand h2{
+font-size: 18px;
+margin-right: 20px;
+margin-left: 0;
+color: white ;
+margin-top: 3px;
+
+
+}
+
+
+}
+@media screen and (max-width:1366px)
+{
+.one{
+  background-image: linear-gradient(rgb(44,51,51), rgb(245,242,230));
+  width: 550px;
+  height: 300px;
+  position: relative;
+  top: 160px;
+  left: 260px;
+
+}
+.two{
+  background-image: linear-gradient(#395b64, #2666cf);
+  width: 550px;
+  height: 300px;
+  position: relative;
+  bottom: 200px;
+  left: 200px;
+  z-index: 1;
+font-size: 30px;
+  text-align: center;
+  color: white;
+
+}
+
+
+.three{
+  background-image: linear-gradient(rgb(245,242,230), rgb(44,51,51));
+  width: 550px;
+  height: 280px;
+position: relative;
+  bottom: 480px;
+  left: 60px;
+
+
+
+}
+.four{
+width: 250px;
+  height: 330px;
+  position: relative;
+  bottom: 730px;
+  left: 80px;
+  z-index: 2;
+
+}
+.five
+{
+  width: 35px;
+  height: 40px;
+  background-image: linear-gradient(#2666cf, #395b64);
+  position: relative;
+  bottom: 780px;
+  left: 280px;
+  z-index: 3;
+}
+video
+{
+  width: 70%;
+  left: 14%;
+  top: 20px;
+}
+
+h1{
+  text-align: center;
+  margin-right: 700px;
+  font-size: 32px;
+  color: white;
+  margin-top: 50px;
+}
+footer
+{
+  color: white;
+  background-color: rgb(16, 16, 52);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 0px 5px 0px 5px;
+ 
+    width: 100%;
+    margin-top: 250px;
+    margin-bottom: -20px;
+    margin-left: -5px;
+    margin-right: 20px;
+}
+header{
+
+padding-top: 30px;
+min-height: 70px;
+border-bottom: rgb(0, 86, 172) 5px solid;
+width: 101%;
+margin-right: 0;
+padding-right: 0;
+
+}
+
+
+p{
+width: 100%;
+}
+header nav{
+float: left;
+margin-top: -80px;
+margin-left: 690px;
+
+}
+header a{
+color: white;
+text-decoration: none;
+font-size: 20px;
+}
+header #brand h2{
+margin-left: 80px;
+color: white ;
+margin-top: 3px;
+font-size: 36px;
+
+
+}
+.about{
+font-size:15px ;
+margin-left: 600px;
+width: 45%;
+
+}
+.img1 img{
+width: 500px;
+height: 450px;
+margin-top: -1800px;
+margin-left: 30px;
+}
+.img2{
+
+width: 60%;
+margin-left: 230px;
+margin-top: 300px;
+
+}
+.history {
+color: white;
+  font-weight: bold;
+ text-align: center;
+ font-size:17px;
+ margin-top: 70px;
+ width: 80%;
+ margin-left: 150px;
+
+
+}
+.prizes{
+ 
+color: white;
+font-weight: bold;
+font-size:20px;
+margin-left: 650px;
+margin-top: 1100px;
+width: 40%;
+
+
+
+ }
+ .goals{
+   margin-right: 900px;
+ }
+ .imgp img{
+  width: 550px;
+  height: 350px;
+ position: relative;
+ bottom: 280px;
+left: 50px;
+
+}
+
+header .logo{
+margin-bottom: -33px;
+margin-left: 20px;
+
+
+}
+
+#brand h2{
+font-size: 18px;
+margin-right: 50px;
+margin-left: 0;
+color: white ;
+margin-top: 3px;
+
+
+}
+
+
+}

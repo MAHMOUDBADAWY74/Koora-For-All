@@ -1,0 +1,113 @@
+.o{
+    color: aqua;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:900px ;
+}
+.k{
+    color: rgb(70, 202, 241);
+    font-size: x-large;
+    position: relative;
+    left: 1150px;
+}
+.i{
+    color: aqua;
+    font-size: x-large;
+    position: relative;
+    left:1250px;
+}
+.mj{
+    color: aqua;
+    font-size: x-large;
+    position: relative;
+    left: 1110px;
+}
+.kl{
+    color: aqua;
+    font-size: x-large;
+    position: relative;
+    left: 1120;
+}
+p{
+    color: rgb(129, 244, 248);
+    font-size: x-large;
+    position: relative;
+    left: 1390px;
+}
+.oq{
+    color: rgb(114, 221, 248);
+    font-size: x-large;
+    position: relative;
+    left: 1365px;
+}
+.mm{
+    color: aqua;
+}
+.ww{
+    color: aqua;
+}
+.fg{
+    color: rgb(107, 234, 238);
+    font-size: x-large;
+    position: relative;
+    left: 1375;
+}
+.qaz{
+    position: relative;
+    left: 500px;
+}
+.rty{
+    position: relative;
+    left: 500px; 
+}
+.opl{
+    position: relative;
+    left: 500px;
+}
+.ted{
+    position: relative;
+    left: 500px;
+}
+.trd{
+    position: relative;
+    left: 500px;
+}
+.sdd{
+    position: relative;
+    left: 500px;
+}
+.rgb{
+    position: relative;
+    left: 500px;
+}
+.lgf{
+    position: relative;
+    left: 500px;
+}
+.xn{
+    position: relative;
+    left: 500px;
+}
+.tu{
+    position: relative;
+    left: 500px;
+}
+.fwd{
+    position: relative;
+    left: 500px;
+}
+footer{
+    
+    color: white;
+    background-color: rgb(16, 16, 52);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: -1px 5px 5px 5px;
+   
+      width: 101%;
+      margin-top: 250px;
+      margin-bottom: -18px;
+      margin-left: -15px;
+      margin-right: 20px;
+}

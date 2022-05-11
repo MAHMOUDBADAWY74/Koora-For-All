@@ -1,0 +1,88 @@
+div{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    margin-right: 10px;
+}
+.maa{
+    position: relative;
+    left:500px ;
+}
+.hh{
+    position: relative;
+    left: 500px;
+}
+.q{
+    position: relative;
+    left: 500px;
+}
+.wee{
+    position: relative;
+    left:500px ;
+}
+.kl{
+    position: relative;
+    left: 500px;
+}
+.nnn{
+    position: relative;
+    left: 500px;
+}
+.wqe{
+    position: relative;
+    left: 500px;
+}
+.okm{
+    position: relative;
+    left: 500px;
+}
+.bg{
+    position: relative;
+    left: 500px;
+}
+.jj{
+    position: relative;
+    left: 500px;
+}
+.ur{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    color: aqua;
+}
+.oo{
+    color: aqua;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+.football{ 
+    color: white ;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: -50px;
+    transition: 0.8s ease;
+    margin-left: 45%;
+}
+footer{
+    
+    color: white;
+    background-color: rgb(16, 16, 52);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: -1px 5px 5px 5px;
+   
+      width: 101%;
+      margin-top: 250px;
+      margin-bottom: -18px;
+      margin-left: -15px;
+      margin-right: 20px;
+}

@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url(../images/3248105-66479368-2560-1440-1536x864.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    padding: 0px 20px;
+    direction: ltr ;
+}
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 450px;
+    border: 5px solid #b3b3b3;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    padding: 40px;
+}
+.login:hover{
+    box-shadow: 3px 3px 50px #63dbff;
+}
+.avatar{
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    padding-left: 100px;
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+    color: #b3b3b3;
+}
+.input-text{
+    position: relative;
+    margin: 20px;
+}
+.input-text input{
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: none;
+    padding-left: 30px;
+    border-bottom: 2px solid #b3b3b3;
+    transition: 00.5s ease;
+}
+.input-text input:focus{
+    border-bottom: 5px solid #63dbff;
+    border-radius: 10px;
+}
+.input-text i{
+    position: absolute;
+    bottom: 10px;
+    font-size: 25px;
+    color: #63dbff;
+    left: 5px;
+}
+#button{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px;
+    background: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+#button:hover{
+    background: #63dbff;
+    color: #fff;
+}
+.remember{
+    margin-top: 45px;
+    color: #b3b3b3;
+}
+a{
+    float: right;
+}
+footer{
+    padding: 0px;
+    margin-top: -25px;
+    color: white;
+    background-color: rgb(16, 16, 52);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}

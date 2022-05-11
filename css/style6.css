@@ -1,0 +1,105 @@
+footer{
+    padding: 0px;
+    margin-top: -25px;
+    color: white;
+    background-color: rgb(16, 16, 52);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+
+}
+header{
+    color: rgb(16, 16, 52);
+    background-color:  rgb(4 17 51);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(0, 86, 172) 5px solid;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+header #brand {
+    float: left;
+
+}
+header .logo{
+    margin-bottom: -33px;
+    margin-left: 27px;
+    float: left;
+}
+
+header #brand h1{
+    margin-left: 70px;
+    color: white ;
+
+
+}
+header nav{
+    float: right;
+    margin-top: -40px;
+    margin-left: 530px;
+}
+header .main-page a{
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover{
+    color: rgb(244, 248, 0);
+    font-weight: bolder;
+}
+div {
+    text-align: center;
+}
+div h1 {
+    color: red;
+}
+div h2 {
+    color: red;
+    }
+    div h3 {
+        color: red;
+        }
+        div h4 {
+            color: red;
+            }
+            div h5 {
+                color: red;
+                }
+                .football{ 
+                    color: white ;
+                    background-color: #3a6cf4;
+                    text-decoration: none;
+                    font-size: 1.1em;
+                    font-weight: 600;
+                    display: inline-block;
+                    padding: 0.9375em 2.1875em;
+                    letter-spacing: 1px;
+                    border-radius: 15px;
+                    margin-bottom: -50px;
+                    transition: 0.8s ease;
+                    margin-left: 0%;
+                }
+                footer{
+                    padding: 0px;
+                    margin-top: 55px;
+                    color: white;
+                    background-color: rgb(16, 16, 52);
+                    text-align: center;
+                    font-weight: bolder;
+                    font-size: 20px;
+                }
+                

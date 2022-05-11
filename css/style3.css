@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    background-color: rgb(37, 40, 42);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    color: white;
+}
+.we{
+    padding-top: 20px;
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin:0 10px;
+}
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(37, 40, 42);
+}
+.iframe{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 800px;
+}
+table,th,td {
+    border: 1px solid ;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+.benzema{ 
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    
+}
+.enes{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+.rdt{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+
+}
+.junami{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+.vini{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+.dembele{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+.trejo{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+.muniain{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+.be{
+    text-align: center;
+    background-color: rgb(37, 40, 42);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.player{
+    height: 30%;
+    width: 40%;
+}
+.social-icons{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: -165%;
+    left: 22%;
+    
+    
+
+}
+.slide{
+    position: absolute;
+    left: 23%;
+    bottom: -140%;
+    height: 50%;
+    width: 50%;
+}
+.id{
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: -80%; left: 38%;
+}
+.fa-facebook{
+    transition: 0.5s;
+}
+.fa-instagram{
+    transition: 0.5s;
+}
+.fa-twitter{
+    transition: 0.5s;
+}
+.fa-youtube{
+    transition: 0.5s;
+}
+.facebook{
+    color: white;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.youtube{
+    color: white;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.twitter{
+    color: white;
+    margin-right: 60px;
+    margin-left: 60px;
+
+}
+.instagram{
+    color: white;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.social{
+    background-color: black;
+}
+.ti{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: absolute;
+    bottom: -155%;
+    left: 40%;
+}
+.firstp{
+    background-color: #154664;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 98%;
+    font-size: 22px;
+    padding-right: 30px;
+}
+.h{
+    color: #02AECA;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.history{
+    color: #FDFEFB;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height:1.8;
+}
+.real{
+    color: white;
+}
+.th0{
+    color: white;
+    background-color: rgb(37, 40, 42);
+}
+.th10{
+    background-color: #254150;
+    color: white;
+}
+.madrid{
+    color:white;
+}
+.table1{
+    background-color: #254150;
+    padding-bottom: 20px;
+}
+.table2{
+    background-color: #254150;
+    padding-bottom: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    align-content: center;
+}
+.purple{
+     background-color: rgb(162, 105, 183);
+   
+}
+.caption{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.karim{
+    text-align: center;
+    background-color:rgb(37, 40, 42) ;
+    color: white;
+    border: none;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.stastics{
+    border: none;
+}
+.laliga{
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.champions{
+    border: none;
+}
+.france{
+    height: 30px;
+    width: 40px;
+    padding-top: 0px;
+}
+.tr5:hover{
+    background-color: rgb(162, 105, 183) ;
+    color: black;
+}
+.tr6:hover{
+    background-color: white;
+    color: black;
+}
+.be1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.be2{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: white;
+    padding-left: 20px;
+}
+.be1{
+    color: white;
+}
+.tr5{
+     border: none;
+}
+.tr6{
+    border: none;
+}
+.fr{
+    padding-top: 5px;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.fa-twitter:hover  {
+    color: rgb(29, 155, 240);
+}
+.fa-instagram:hover{
+    color: #a80077;
+}
+
+tr.color:nth-child(even){
+    background-color:rgb(37, 40, 42) ;
+}
+tr.color1:nth-child(odd){
+    background-color: rgb(37, 40, 42);
+}
+
+th,td{
+    padding: 10px;
+}
+footer{
+    padding: 0px;
+    margin-top: -25px;
+    color: white;
+    background-color: rgb(16, 16, 52);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}

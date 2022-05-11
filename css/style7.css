@@ -1,0 +1,125 @@
+footer{
+    padding: 0px;
+    margin-top: -25px;
+    color: white;
+    background-color: rgb(16, 16, 52);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+
+}
+header{
+    color: rgb(16, 16, 52);
+    background-color:  rgb(4 17 51);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(0, 86, 172) 5px solid;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+header #brand {
+    float: left;
+
+}
+header .logo{
+    margin-bottom: -33px;
+    margin-left: 27px;
+    float: left;
+}
+
+header #brand h1{
+    margin-left: 70px;
+    color: white ;
+
+
+}
+header nav{
+    float: right;
+    margin-top: -40px;
+    margin-left: 530px;
+}
+header .main-page a{
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover{
+    color: rgb(244, 248, 0);
+    font-weight: bolder;
+}
+
+div {
+    text-align: center;
+}
+div h1 {
+    color: red;
+}
+div h2 {
+    color: red;
+    }
+    div h3 {
+        color: red;
+        }
+        div h4 {
+            color: red;
+            }
+            div h5 {
+                color: red;
+                }
+                div h6 {
+                    color: red;
+                    }
+                    div h7 {
+                        color: red;
+                        }
+                        div h8 {
+                            color: red;
+                            }
+                            div h9 {
+                                color: red;
+                                }
+                                div h10 {
+                                    color: red;
+                                    }
+                                    div h11 {
+                                        color: red;
+                                        }div h12 {
+                                            color: red;
+                                            }
+                                            div h12 {
+                                                color: red;
+                                                }div h13 {
+                                                    color: red;
+                                                    }div h14 {
+                                                        color: red;
+                                                        }div h15 {
+                                                            color: red;
+                                                            }div h16 {
+                                                                color: red;
+                                                                }
+                                                                div h17 {
+                                                                    color: red;
+                                                                    }
+                                                                    footer{
+                                                                        padding: 0px;
+                                                                        margin-top: 0px;
+                                                                        color: white;
+                                                                        background-color: rgb(16, 16, 52);
+                                                                        text-align: center;
+                                                                        font-weight: bolder;
+                                                                        font-size: 20px;
+                                                                    }

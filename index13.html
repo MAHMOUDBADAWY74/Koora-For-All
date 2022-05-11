@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> Clubs</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style13.css">
+</head>
+
+<body>
+ 
+  
+ <header> 
+    <div class="liga"> 
+     <div class="logo">
+      <img src="images1/IMG-20220507-WA0051.jpg" alt="logo" width="90px" height="90px" class="logo"> 
+      <div id="brand"> 
+       
+      </div> 
+      <nav> 
+       
+      </nav> 
+     </div> 
+    </div>
+   </header> 
+
+   <button class="arabic" value="ar"> AR</button>
+  <button class="english" value="en"> EN</button>
+   
+  
+   <div class="flex">
+
+    
+     <div id="item1" onmouseover="mOver(this)" onmouseout="mOut(this)" > 
+     
+       <h2> Real Madrid</h2> 
+     <p>
+       from Madrid,Spain.<br>
+       it has won the champions league 13 times.<br><br>
+       <img src="images1/1200px-ريال_مدريد.svg.png">
+       </p>
+          </div>
+     
+     
+     <div id="item2" onmouseover="mOver(this)" onmouseout="mOut(this)">
+       <h2> A.C.Milan</h2> 
+     <p>
+       from Milan, Italy. <br>
+       it has won the champions league 7 times.<br><br>
+       <img src="images1/1200px-Logo_of_AC_Milan.svg.png">
+       </div>
+       
+     <div id="item3" onmouseover="mOver(this)" onmouseout="mOut(this)"> 
+     <h2> Bayern Munich</h2> 
+     <p>
+       from Munich, German.  <br>
+       it has won the champions league 6 times.<br><br>
+       <img src="images1/1200px-FC_Bayern_München_logo_(2017).svg.png">
+       </div>
+       
+     <div id="item4" onmouseover="mOver(this)" onmouseout="mOut(this)">         <h2>Liverpool </h2>
+            <p>
+              from Liverpool, UK . <br>
+              it has won the champions league 6 times.<br><br>
+              <img src="images1/1200px-Liverpool_FC.svg.png">
+              </div>
+     
+     <div  id="item5" onmouseover="mOver(this)" onmouseout="mOut(this)">            <h2>Barcelona </h2>
+            <p>
+              from Barcelona, Spain.<br>
+              it has won the champions league 5 times.<br> <br>
+              <img src="images1/1200px-FC_Barcelona_(crest).svg.png">   </div>
+     
+     <div id="item6" onmouseover="mOver(this)" onmouseout="mOut(this)">          <h2>Ajax </h2>
+            <p>
+              from Amsterdam, Netherlands.  <br>
+              it has won the champions league 4 times.<br><br> 
+              <img src="images1/1200px-AFC_Ajax.svg.png">
+              </div>
+     
+     <div id="item7" onmouseover="mOver(this)" onmouseout="mOut(this)">          <h2>Inter Milan </h2>
+            <p>
+              from Milano, Italy. <br>
+              it has won the champions league 3 times.<br><br>
+              <img class="uv" src="images1/inter2.png">
+              </div>
+     
+     <div id="item8" onmouseover="mOver(this)" onmouseout="mOut(this)">         <h2> Manchester United</h2>
+            <p>
+              from Manchester, UK. <br>
+              it has won the champions league 3 times.<br><br>
+              <img src="images1/640px-Manchester_United_FC_crest.svg.png">
+              </div>
+     
+     <div id="item9"  onmouseover="mOver(this)" onmouseout="mOut(this)">           <h2>Juventus </h2>
+            <p>
+              from Turin,Italy. <br>
+              it has won the champions league 2 times.<br><br>
+              <img class="uv" src="images1/يوفنتوس.png">
+              </div>
+     
+     <div id="item10" onmouseover="mOver(this)" onmouseout="mOut(this)">          <h2>Benfica </h2>
+            <p>
+              from Lisbon, Portugal. <br>
+              it has won the champions league 2 times.<br><br>
+              <img src="images1/Benfica1.png">
+              </div>
+     
+     
+      </div>
+    
+      <footer>
+        koora for all site ©2022
+       <p></p> 
+       
+      </footer> 
+
+       <!-- start js-->
+       <script>
+        function mOver(obj) {
+          obj.style.backgroundColor="blue";
+        }
+        
+        function mOut(obj) {
+          obj.style.backgroundColor="gainsboro";
+        }
+
+
+let arabic=document.querySelector('.arabic');
+let english=document.querySelector('.english');
+let item1=document.getElementById('item1');
+let item2=document.getElementById('item2');
+let item3=document.getElementById('item3');
+let item4=document.getElementById('item4');
+let item5=document.getElementById('item5');
+let item6=document.getElementById('item6');
+let item7=document.getElementById('item7');
+let item8=document.getElementById('item8');
+let item9=document.getElementById('item9');
+let item10=document.getElementById('item10');
+
+arabic.onclick=()=>{
+    setlanguage("arabic");
+    sessionStorage.setItem("Lang","arabic");
+
+}
+
+english.onclick=()=>{
+    setlanguage("english");
+    sessionStorage.setItem("Lang","english");
+    
+}
+
+onload=()=>
+{
+    setlanguage(sessionStorage.getItem('Lang'))
+}
+
+function setlanguage(getlanguage)
+{
+  if(getlanguage==="arabic")
+  {
+
+    
+
+    item1.innerHTML='<h2>ريال مدريد</h2><p>.من مدريد، إسبانيا<br>.وقد فاز بدوري أبطال أوروبا 13 مرة<br><br></br><img src="images1/1200px-ريال_مدريد.svg.png">';
+    item2.innerHTML='<h2>ميلانو</h2> <p>.من ميلانو، إيطاليا<br>. وقد فاز بدوري أبطال أوروبا 7 مرات <br><br></p><img src="images1/1200px-Logo_of_AC_Milan.svg.png">';
+    item3.innerHTML='<h2>بايرن ميونخ </h2><p> .من ميونيخ ، ألمانية <br>. وقد فاز بدوري أبطال أوروبا 6 مرات <br><br><br><img src="images1/1200px-FC_Bayern_München_logo_(2017).svg.png">';
+    item4.innerHTML='<h2>ليفربول </h2><p> .من ليفربول، المملكة المتحدة  <br> .وقد فاز بدوري أبطال أوروبا 6 مرات  <br><br><br><img src = "images1/1200px-Liverpool_FC.svg.png">';
+    item5.innerHTML='<h2>برشلونة </h2><p> .من برشلونة، إسبانيا<br>  .لقد فاز بدوري أبطال أوروبا 5 مرات <br> <br> </br><img src="images1/1200px-FC_Barcelona_(crest).svg.png"> ';
+    item6.innerHTML='<h2>أياكس </h2><p> .من أمستردام، هولندا   <br> .لقد فاز بدوري أبطال أوروبا 4 مرات <br><br><br>  <img src = "images1/1200px-AFC_Ajax.svg.png">';
+    item7.innerHTML=' <h2> إنتر ميلان </h2> <p> .من ميلانو، إيطاليا  <br> .وقد فاز بدوري أبطال أوروبا 3 مرات <br><br> <br><img class="uv" src="images1/inter2.png">';
+    item8.innerHTML= '<h2> مانشستر يونايتد</h2> <p> .من مانشستر ، المملكة المتحدة <br> .وقد فاز بدوري أبطال أوروبا 3 مرات  <br><br><br> <img src = "images1/640px-Manchester_United_FC_crest.svg.png">';
+    item9.innerHTML='<h2>يوفنتوس </h2><p> .من تورينو، إيطاليا <br> .وقد فاز دوري أبطال أوروبا 2 مرات <br><br><br> <img class="uv" src="images1/يوفنتوس.png">';
+    item10.innerHTML= '<h2>بنفيكا </h2><p> .من لشبونة، البرتغال <br> .وقد فاز دوري أبطال أوروبا 2 مرات <br><br><br> <img src="images1/Benfica1.png">';
+   
+  }
+  else if(getlanguage==="english")
+  {
+   
+    item1.innerHTML='<h2> Real Madrid</h2> <p>from Madrid,Spain.<br> it has won the champions league 13 times.<br><br> <img src="images1/1200px-ريال_مدريد.svg.png"></p>';
+    item2.innerHTML=' <h2> A.C.Milan</h2> <p> from Milan, Italy. <br> it has won the champions league 7 times.<br><br><img src="images1/1200px-Logo_of_AC_Milan.svg.png">';
+    item3.innerHTML='<h2> Bayern Munich</h2> <p>from Munich, German.  <br>it has won the champions league 6 times.<br><br><img src="images1/1200px-FC_Bayern_München_logo_(2017).svg.png">';
+    item4.innerHTML='<h2>Liverpool </h2><p>from Liverpool, UK . <br>it has won the champions league 6 times.<br><br><img src="images1/1200px-Liverpool_FC.svg.png">';
+    item5.innerHTML='<h2>Barcelona </h2><p>from Barcelona, Spain.<br>it has won the champions league 5 times.<br> <br><img src="images1/1200px-FC_Barcelona_(crest).svg.png">  ';
+    item6.innerHTML='  <h2>Ajax </h2><p>from Amsterdam, Netherlands.  <br>it has won the champions league 4 times.<br><br> <img src="images1/1200px-AFC_Ajax.svg.png">';
+    item7.innerHTML='<h2>Inter Milan </h2> <p>from Milano, Italy. <br>it has won the champions league 3 times.<br><br><img class="uv" src="images1/inter2.png">';
+    item8.innerHTML=' <h2> Manchester United</h2><p>from Manchester, UK. <br>it has won the champions league 3 times.<br><br><img src="images1/640px-Manchester_United_FC_crest.svg.png">';
+    item9.innerHTML='<h2>Juventus </h2><p>from Turin,Italy. <br>it has won the champions league 2 times.<br><br><img class="uv" src="images1/يوفنتوس.png">';
+    item10.innerHTML=' <h2>Benfica </h2><p>from Lisbon, Portugal. <br>it has won the champions league 2 times.<br><br><img src="images1/Benfica1.png">';
+    }
+}
+
+ </script>
+        
+ <!--end js-->
+</body>
+</html>

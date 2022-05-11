@@ -1,0 +1,181 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    background-color: #97dfd759;
+    margin: 0;  
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+
+}
+header{
+    color: rgb(16, 16, 52);
+    background-color:  rgb(4 17 51);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(0, 86, 172) 5px solid;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+header #brand {
+    float: left;
+
+}
+header .logo{
+    margin-bottom: -33px;
+    margin-left: 27px;
+    float: left;
+}
+
+header #brand h1{
+    margin-left: 70px;
+    color: white ;
+
+
+}
+header nav{
+    float: right;
+    margin-top: -45px;
+    margin-left: 530px;
+}
+header .main-page a{
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover{
+    color: rgb(244, 248, 0);
+    font-weight: bolder;
+}
+
+#showcase{
+    min-height: 600px;
+    background: url(../images1/NeedForSpeed-SciSports-Edition-header-Ligue1-1280x720.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.block{
+    width: 65%;
+    text-align: left;
+    margin-left:15px;
+    margin-top: 70px;
+    font-size: 20px;
+    text-decoration: solid;
+}
+.leage img{
+
+    width: 22%;
+    height: 15%;
+    float: right;
+    margin-top: -385px;
+    margin-right: 50px;
+}
+.block2{
+    margin-top: 50px;
+    width: 40%;
+    font-size: 18px;
+    float: right;
+}
+.old{
+    width: 30%;
+    height: 50%;
+    margin-top: 70px;
+    margin-left: 50px;
+
+}
+.block3 , .block4{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+}
+.ball{
+    width: 80%;
+    margin-left: 13%;
+    margin-right: 10%;
+}
+.Champions{
+    width: 70%;
+    margin-left: 25%;
+}
+.Champions table{
+    width: 70%;
+    border-collapse: collapse;
+
+}
+.Champions td {
+    text-align: center;
+}
+tr:hover {background-color: rgb(189, 222, 44);}
+
+
+.football{ 
+    color: white ;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.8s ease;
+    margin-left: 45%;
+}
+
+
+
+footer{
+    padding: 0px;
+    margin-top: -25px;
+    color: white;
+    background-color: rgb(16, 16, 52);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+@media(max-width:768px){
+    header nav ul,
+    header #brand,
+    header nav,
+    header nav li,
+    header #brand h1,
+    #showcase,
+    .leage img,
+    .block,
+    .block2,
+    .block3,
+    .block4,
+    .old img,
+    .ball img,
+    .Champions
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+
+    }
+    .leage img ,
+    .old img {
+        margin: auto;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+}
